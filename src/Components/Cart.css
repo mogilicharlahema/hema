@@ -1,0 +1,39 @@
+.custom-card {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .custom-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .quantity-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  .remove-btn {
+    margin-top: 10px;
+    background-color: #ff4d4d;
+    border: none;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .proceed-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
