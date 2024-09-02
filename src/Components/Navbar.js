@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const NavbarComponent = () => {
   return (
-    <Navbar expand="lg" bg="primary" variant="dark" fixed="top">
+    <Navbar expand="lg" bg="secondary" variant="dark" fixed="top">
       <Container>
         <Navbar.Brand as={Link} to="/">
           My Booking

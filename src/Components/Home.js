@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <div className="container mt-5">
       <div className="welcome-message mb-4" style={{ textAlign: "center" }}>
-        <h2>Welcome back! Let’s continue your search.</h2>
+        <h2><strong>Welcome back! Let’s continue your search...!</strong></h2>
       </div>
 
       <div 
@@ -35,7 +35,7 @@ const Home = () => {
     border: "1px solid #ddd", 
     borderRadius: "5px", 
     padding: "20px", 
-    backgroundColor: "#f8f9fa"
+    backgroundColor: "darkgrey"
   }}
 >
   <Row className="g-3">
@@ -84,7 +84,7 @@ const Home = () => {
       </Dropdown>
     </Col>
     <Col xs={12} md={2} className="d-flex justify-content-center align-items-center">
-      <Button variant="danger" onClick={handleSearch} className="w-100">
+      <Button variant="success" onClick={handleSearch} className="w-100">
         Search
       </Button>
     </Col>
@@ -109,7 +109,7 @@ const Home = () => {
                 <Card.Text>{property.description}</Card.Text>
                 <Card.Text>{property.location}</Card.Text>
                 <Card.Text><strong>Price:</strong> ₹{property.price.toLocaleString()}</Card.Text>
-                <Link to={`/property/${property.id}`} state={property} className="btn btn-primary mt-auto">
+                <Link to={`/property/${property.id}`} state={property} className="btn btn-light mt-auto">
                   View Details
                 </Link>
               </Card.Body>

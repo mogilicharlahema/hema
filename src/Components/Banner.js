@@ -1,5 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import { Image } from 'react-bootstrap';
+import villaImage from "./villa.jpg";
+import flatImage from "./flat.jpg";
+import flat2Image from "./flat 2.jpeg";
 
 function Banner() {
   const carouselItemStyle = {
@@ -16,8 +18,8 @@ function Banner() {
   return (
     <Carousel>
       <Carousel.Item style={carouselItemStyle}>
-        <Image 
-          src='https://www.preleaseproperty.com/assets/images/blogs_static/top-indian-cities-ranked-based-on-real-estate/image2.jpg' 
+        <img 
+          src={villaImage}
           alt='First slide' 
           style={imageStyle}
           className="d-block"
@@ -28,8 +30,8 @@ function Banner() {
       </Carousel.Item>
 
       <Carousel.Item style={carouselItemStyle}>
-        <Image 
-          src='https://www.bricksnwall.com/admin/assets/blog/1715750559House-types-in-india.webp' 
+        <img 
+          src={flatImage} 
           alt='Second slide' 
           style={imageStyle}
           className="d-block"
@@ -40,8 +42,8 @@ function Banner() {
       </Carousel.Item>
 
       <Carousel.Item style={carouselItemStyle}>
-        <Image 
-          src='https://superadmin.homes247.in/images/stories/1699254990-Types%20of%20Houses%20in%20India.jpeg'   
+        <img 
+          src={flat2Image}   
           alt='Third slide' 
           style={imageStyle}
           className="d-block"

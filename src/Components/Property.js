@@ -44,8 +44,8 @@ const Property = () => {
               <Card.Text><strong>Bedrooms:</strong> {bedrooms}</Card.Text>
               <Card.Text><strong>Price:</strong> ₹{price.toLocaleString()}</Card.Text>
               <div className="d-flex justify-content-between align-items-center">
-                <Button variant="success" onClick={handleContactOwner}>Contact Owner</Button>
-                <Button variant="primary" onClick={handleBookNow}>Book Now</Button>
+                <Button variant="warning" onClick={handleContactOwner}>Contact Owner</Button>
+                <Button variant="info" onClick={handleBookNow}>Book Now</Button>
               </div>
             </Card.Body>
           </Card>
@@ -55,7 +55,7 @@ const Property = () => {
       {/* Contact Owner Modal */}
       <Modal show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton>
-          <Modal.Title>Contact Owner</Modal.Title>
+          <Modal.Title><bold>Contact Owner</bold></Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
@@ -76,10 +76,10 @@ const Property = () => {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleCloseModal}>
+          <Button variant="danger" onClick={handleCloseModal}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleCloseModal}>
+          <Button variant="dark" onClick={handleCloseModal}>
             Send Message
           </Button>
         </Modal.Footer>

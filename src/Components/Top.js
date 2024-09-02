@@ -1,10 +1,11 @@
 import React from "react";
-import image from "./download.png";
+import image from "./wall.jpg";
 
 const Top = () => {
   return (
     <div style={styles.container}>
-      <h2 style={styles.header}>NoBroker Business Assist Plan For Builders</h2>
+      <h2 style={styles.header}>Exclusive NoBroker Builder Support Plan</h2>
+
       <div style={styles.content}>
         <div style={styles.imageContainer}>
           <img
@@ -14,9 +15,10 @@ const Top = () => {
           />
         </div>
         <div style={styles.info}>
-          <p>Get in touch with us to Sell or Rent Your Projects</p>
-          <button style={styles.button}>Enquire Now</button>
-          <p style={styles.contactInfo}>For Builder Enquiries: +91 91080 50400</p>
+          <p>Reach out to us for Selling or Leasing Your Properties</p>
+          <button style={styles.button}>Contact Us</button>
+          <p style={styles.contactInfo}>Builder Assistance: +91 94946 97152</p>
+
         </div>
       </div>
     </div>
@@ -31,7 +33,7 @@ const styles = {
     textAlign: "center",
   },
   header: {
-    color: "#555",
+    color: "#557",
     marginBottom: "20px",
   },
   content: {
@@ -44,13 +46,14 @@ const styles = {
   },
   image: {
     width: "100%",
+    height: "100%"
   },
   info: {
     maxWidth: "300px",
     textAlign: "left",
   },
   button: {
-    backgroundColor: "#ff5757",
+    backgroundColor: "blue",
     color: "white",
     padding: "10px 20px",
     border: "none",

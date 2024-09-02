@@ -94,7 +94,7 @@ const Booking = () => {
                   />
                 </Form.Group>
 
-                <Button variant="primary" type="submit" className="mt-3">
+                <Button variant="success" type="submit" className="mt-3">
                   Book Now
                 </Button>
               </Form>
